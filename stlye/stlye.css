@@ -2,4 +2,86 @@
     margin: 0;
     padding: 0;
     border: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+input {
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 5px;
+    width: 140px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+hr {
+    border-top: 2px dashed;
+}
+
+.container {
+   text-align: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.btn-calcular {
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 40px;
+    width: 100px;
+    height: 40px;
+}
+
+.btn-calcular:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.page-title {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer {
+    margin-top: 152px;
+    padding: 30px;
+}
+
+.icon-link {
+    height: 50px;
+    float: right;
+    margin: 0 auto;
+    gap: 32px;
+    margin-right: 10px;
+}
+.icon-git {
+    height: 50px;
+    float: right;
+    gap: 32px;
+    margin-right: 25px;
+}
+
+.social {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.subtitle {
+    float: left;
+    margin-top: 25px;
 }
