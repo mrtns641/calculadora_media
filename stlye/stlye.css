@@ -3,13 +3,12 @@
     padding: 0;
     border: 0;
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
     background-color: #b948be;
+    font-family: 'Courier New', Courier, monospace;
 }
-
 
 input {
     border-radius: 5px;
@@ -18,6 +17,13 @@ input {
     width: 140px;
     height: 40px;
     box-sizing: border-box;
+}
+
+footer {
+    margin-top: 152px;
+    padding: 25px;
+    border-top: 2px solid purple;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .container {
@@ -50,10 +56,11 @@ input {
     margin-top: 40px;
 }
 
-footer {
-    margin-top: 152px;
-    padding: 25px;
-    border-top: 2px solid purple;
+.social {
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 .icon-link {
@@ -63,19 +70,12 @@ footer {
     gap: 32px;
     margin-right: 10px;
 }
+
 .icon-git {
     height: 50px;
     float: right;
     gap: 32px;
     margin-right: 25px;
-}
-
-.social {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    font-weight: bold;
-    justify-content: space-around;
-    align-items: flex-end;
 }
 
 .subtitle {
@@ -93,10 +93,10 @@ footer {
     color: green;
     font-size: 30px;
     font-weight: bold;
-  }
+}
   
-  .red {
+.red {
     color: crimson;
     font-size: 30px;
     font-weight: bold;
-  }
+}
