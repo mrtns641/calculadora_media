@@ -6,27 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" type="text/css" href="stlye/stlye.css">
+    <script src="./script.js"></script>
     <link rel="shortcut icon" href="images/calc-icon.png">
 </head>
 <body>
    <main>
     <div class="container">
         <h1 class="page-title">Calculadora de média</h1>
-        <hr>
         <span id="resultado"></span>
         <span id="passou"></span>
         <div class="input-container">
-            <input id="valor1" placeholder="1º nota" type="number" />
-            <input id="valor2" placeholder="2º nota" type="number" />
-            <input id="valor3" placeholder="3º nota" type="number" />
-            <input id="valor4" placeholder="4º nota" type="number" />
+            <input id="nota1" placeholder="1º nota" type="number" />
+            <input id="nota2" placeholder="2º nota" type="number" />
+            <input id="nota3" placeholder="3º nota" type="number" />
+            <input id="nota4" placeholder="4º nota" type="number" />
         </div>
-        <button type="submit" onclick="calcular()" class="btn-calcular">Calcular</button>
+        <button onclick="calcular()" class="btn-calcular">Calcular</button>
     </div>
    </main>
    <footer class="footer">
         <div class="social">
-            <p class="subtitle">By: mrtns641 💙</p>
+            <a href="https://github.com/mrtns641" target="_blank">
+                <p class="subtitle">By: mrtns641 💜</p>
+            </a>
             <a href="https://www.linkedin.com/in/gabriella-martins-1a4b78210" target="_blank">
                 <img class="icon-link" src="/images/linkedin-icon.png" alt="Ícone LinkedIn" />
             </a>
